@@ -1,0 +1,107 @@
+﻿@model Pandora.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input  type ="number" asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Discount" class="control-label"></label>
+                <input  type ="number" asp-for="Discount" class="form-control" />
+                <span asp-validation-for="Discount" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="ProductAvailable" class="form-label"></label>
+                <input asp-for="ProductAvailable" type="checkbox" />
+                <span asp-validation-for="ProductAvailable" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImageFile" class="form-label"></label>
+                <input type="file" name="imageFile" id="imageFile"
+                       accept=".png,.jpg" class="form-control" onchange="AddImage()"  required/>
+                <span id="customErrorMessage" class="text-danger" style="display:none;">You must add the image of the product</span>
+               
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="form-label"> </label>
+                <select class="form-control" asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.AllCategories,"Id", "Name"))">
+                    <option selected disabled value="0">Select Category...</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaterialId" class="form-label"> </label>
+                <select class="form-control" asp-for="MaterialId" asp-items="@(new SelectList(ViewBag.AllMaterials,"Id", "Name"))">
+                    <option selected disabled value="0">Select Material...</option>
+                </select>
+            </div>
+            <div style="margin:12px">
+                <button id="productForm" onclick="return validateForm()" type="submit" class="btn btn-primary col-5 " style="margin-left:15px">Add</button>
+                <a asp-controller="Products" asp-action="Index" class="btn btn-danger col-5">Back To List</a>
+            </div>
+        </form>
+       
+    </div>
+    <div class="col-md-4">
+        <img id="previewImage" src="#" alt="Image Preview" style="display:none; max-width:100%; margin-top:50px; margin-left:100px" />
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        
+            function AddImage() {
+                const fileInput = document.getElementById("imageFile");
+            var errorMessage = document.getElementById("customErrorMessage");
+                const previewImage = document.getElementById("previewImage");
+                if (fileInput.files && fileInput.files[0]) {
+                    previewImage.src = window.URL.createObjectURL(fileInput.files[0]);
+                    previewImage.style.display = 'block';
+                    errorMessage.style.display = "none";
+
+
+                }
+                else { 
+                    previewImage.style.display = 'none';
+                    errorMessage.style.display = "block";
+
+                }
+            }
+        function validateForm() {
+            var imageFile = document.getElementById("imageFile").files[0];
+            var errorMessage = document.getElementById("customErrorMessage");
+
+            if (!imageFile) {
+                errorMessage.style.display = "block";
+              
+            }
+           
+        }
+
+    </script>
+}

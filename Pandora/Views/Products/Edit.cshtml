@@ -1,0 +1,122 @@
+﻿@model Pandora.Models.Product
+
+<h1 class="text-center mb-4">Edit Product</h1>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="product-edit-page p-4 border rounded-lg bg-light shadow-sm">
+                <form method="post" asp-controller="Products" asp-action="Edit" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" asp-for="ImagePath" />
+
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img id="previewImage" src="@Url.Content("~/" + Model.ImagePath)" alt="Image Preview" class="img-fluid rounded mb-3" style="display:@(string.IsNullOrEmpty(Model.ImagePath) ? "none" : "block"); max-width: 100%;" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="form-group mb-3">
+                                <label asp-for="Name" class="font-weight-bold"></label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description" class="control-label">Description</label>
+                                <textarea asp-for="Description" class="form-control" rows="4" placeholder="Enter product description"></textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label asp-for="Price" class="font-weight-bold"></label>
+                                <input asp-for="Price" class="form-control" />
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label asp-for="Discount" class="font-weight-bold"></label>
+                                <input asp-for="Discount" class="form-control" />
+                                <span asp-validation-for="Discount" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label asp-for="ProductAvailable" class="font-weight-bold"></label>
+                                <input asp-for="ProductAvailable" type="checkbox" />
+                                <span asp-validation-for="ProductAvailable" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label asp-for="ImageFile" class="font-weight-bold">Image (optional)</label>
+                                <input type="file" name="imageFile" id="imageFile" accept=".png,.jpg" class="form-control" onchange="AddImage()" />
+                                <span asp-validation-for="ImageFile" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label asp-for="CategoryId" class="font-weight-bold"></label>
+                                <select class="form-control" asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.AllCategories, "Id", "Name"))">
+                                    <option selected disabled value="0">Select Category...</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label asp-for="MaterialId" class="font-weight-bold"></label>
+                                <select class="form-control" asp-for="MaterialId" asp-items="@(new SelectList(ViewBag.AllMaterials, "Id", "Name"))">
+                                    <option selected disabled value="0">Select Material...</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-4">
+                        <button type="submit" class="btn btn-primary btn-lg col-md-3">Update</button>
+                        <a asp-controller="Products" asp-action="Index" class="btn btn-secondary btn-lg">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        function AddImage() {
+            const fileInput = document.getElementById("imageFile");
+            const previewImage = document.getElementById("previewImage");
+            if (fileInput.files && fileInput.files[0]) {
+                previewImage.src = window.URL.createObjectURL(fileInput.files[0]);
+                previewImage.style.display = 'block';
+            }
+        }
+    </script>
+}
+
+<style>
+    .product-edit-page {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+        .product-edit-page h5 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .product-edit-page p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+    .btn-lg {
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1.1em;
+    }
+
+    .btn-primary:hover {
+        background-color: #0069d9;
+        border-color: #005cbf;
+    }
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+        border-color: #545b62;
+    }
+</style>

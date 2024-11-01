@@ -1,0 +1,119 @@
+﻿@using System.Globalization
+@model IEnumerable<Pandora.Models.Product>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1 class="text-center my-4">Products</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-outline-primary btn-sm">Create New</a>
+</p>
+
+@if (Model.Count() != 0)
+{
+    <form method="get" asp-controller="Products" asp-action="Index" class="col-3 mt-3">
+        <div class="input-group d-flex align-items-center mb-md-3">
+            <input name="search" type="text" value="@ViewBag.search" class="form-control" placeholder="Search" />
+            <button type="submit" class="btn btn-primary input-group-append"><i class="bi bi-search"></i></button>
+        </div>
+    </form>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <form method="get" asp-controller="Products" asp-action="Index" id="filterForm">
+                    <h4>Category</h4>
+                    @foreach (var category in ViewBag.AllCategories)
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="categories" value="@category.Id" @(ViewBag.SelectedCategories != null && ViewBag.SelectedCategories.Contains(category.Id) ? "checked" : "") onchange="this.form.submit();" />
+                            <label class="form-check-label">@category.Name</label>
+                        </div>
+                    }
+                    <hr />
+
+                    <h4>Material</h4>
+                    @foreach (var material in ViewBag.AllMaterials)
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input " type="checkbox" name="materials" value="@material.Id" @(ViewBag.SelectedMaterials != null && ViewBag.SelectedMaterials.Contains(material.Id) ? "checked" : "") onchange="this.form.submit();" />
+                            <label class="form-check-label">@material.Name</label>
+                        </div>
+                    }
+                </form>
+            </div>
+
+            <div class="col-md-9">
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="@((item.Id % 3) * 100)">
+                            <div class="card custom-card">
+                                <div class="image-container">
+                                    <img src="@item.ImagePath" class="card-img-top custom-card-img" alt="@item.Name">
+                                </div>
+                                <div class="card-body custom-card-body">
+                                    <h5 class="card-title custom-card-title">@item.Name</h5>
+                                    <p class="card-text"><strong>Price:</strong> @item.Price.ToString("C2", CultureInfo.CreateSpecificCulture("ar-EG"))</p>
+                                    <p class="card-text"><strong>Discount:</strong> @(item.Discount.HasValue ? item.Discount.Value.ToString("P0") : "0.00%")</p>
+                                    <p class="card-text"><strong>Available:</strong> @(item.ProductAvailable ? "Yes" : "No")</p>
+
+                                    <!-- Custom dropdown for product details -->
+                                    <div class="product-details">
+                                        <button class="btn  btn-sm mb-md-3" type="button" onclick="toggleDetails('@item.Id')">
+                                            <span class="toggle-icon">+</span> Product Details
+                                        </button>
+                                        <div id="details-@item.Id" class="details-content" style="display: none;">
+                                            <p><strong>Description:</strong> @item.Description</p>
+                                            <p><strong>Category:</strong> @item.Category.Name</p>
+                                            <p><strong>Material:</strong> @item.Material.Name</p>
+                                        </div>
+                                    </div>
+
+
+                                    
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info " title="Details"><i class="bi bi-list-ul"></i></a>
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning " title="Edit">
+                                            <i class="bi bi-pencil-square"></i>
+
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger" title="Delete"><i class="bi bi-x-square"></i></a>
+                                        
+
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <h3 class="alert alert-danger text-center">There are no Products</h3>
+}
+<style>
+    .btn-info, .btn-warning, .btn-danger {
+        margin-top: 0.5rem;
+        width: 32%;
+        display: inline-block;
+    }
+</style>
+
+<!-- Custom JavaScript for dropdown functionality -->
+<script>
+    function toggleDetails(id) {
+        var details = document.getElementById('details-' + id);
+        var toggleIcon = details.previousElementSibling.querySelector('.toggle-icon');
+        if (details.style.display === 'none') {
+            details.style.display = 'block';
+            toggleIcon.textContent = '-'; // Change icon to "-"
+        } else {
+            details.style.display = 'none';
+            toggleIcon.textContent = '+'; // Change icon back to "+"
+        }
+    }
+</script>

@@ -1,0 +1,90 @@
+﻿@model Pandora.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-center mb-4">Product Details</h1>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="product-details-page p-4 border rounded-lg bg-light shadow-sm">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img id="previewImage" src="@Url.Content("~/" + @Model.ImagePath)" alt="Image Preview" class="img-fluid rounded mb-3" style="display:@(string.IsNullOrEmpty(Model.ImagePath) ? "none" : "block"); max-width: 100%;" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="mb-3">
+                            <h5 class="font-weight-bold">Name</h5>
+                            <p>@Html.DisplayFor(model => model.Name)</p>
+                        </div>
+                        <div class="mb-3">
+                            <h5 class="font-weight-bold">Description</h5>
+                            <p>@Html.DisplayFor(model => model.Description)</p>
+                        </div>
+                        <div class="mb-3">
+                            <h5 class="font-weight-bold">Price</h5>
+                            <p>@Html.DisplayFor(model => model.Price)</p>
+                        </div>
+                        <div class="mb-3">
+                            <h5 class="font-weight-bold">Discount</h5>
+                            <p>@Html.DisplayFor(model => model.Discount)</p>
+                        </div>
+                        <div class="mb-3">
+                            <h5 class="font-weight-bold">Product Available</h5>
+                            <p>@(Model.ProductAvailable ? "Yes" : "No")</p>
+                        </div>
+                        <div class="mb-3">
+                            <h5 class="font-weight-bold">Category</h5>
+                            <p>@Html.DisplayFor(model => model.Category.Name)</p>
+                        </div>
+                        <div class="mb-3">
+                            <h5 class="font-weight-bold">Material</h5>
+                            <p>@Html.DisplayFor(model => model.Material.Name)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning btn-lg war-detail col-md-3 ">Edit</a>
+                    <a asp-action="Index" class="btn btn-secondary btn-lg sec-detail col-md-2 ">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .product-details-page {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+        .product-details-page h5 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .product-details-page p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+    .war-detail, .sec-detail {
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1.1em;
+    }
+
+        .war-detail:hover {
+            background-color: #e0a800;
+            border-color: #d39e00;
+        }
+
+        .sec-detail:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+</style>

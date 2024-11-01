@@ -1,0 +1,353 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\pandora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\pandora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\models\\requiredifnewproductattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\models\\requiredifnewproductattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hsoopa\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\EmployeesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\migrations\\20240723181244_addingmaterialtableandcategorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\migrations\\20240723181244_addingmaterialtableandcategorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\migrations\\20240723122442_intialcreatingdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\migrations\\20240723122442_intialcreatingdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|c:\\users\\hsoopa\\source\\repos\\pandora\\pandora\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13055313-8585-4D3D-9603-C910C2C55E5E}|Pandora\\Pandora.csproj|solutionrelative:pandora\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hsoopa\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pandora\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Pandora\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T05:15:19.367Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication1\\WebApplication1\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Employee.cs",
+              "RelativeToolTip": "..\\WebApplication1\\WebApplication1\\Models\\Employee.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAIBJwD0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T19:09:34.404Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Pandora\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Models\\Product.cs",
+              "RelativeToolTip": "Pandora\\Models\\Product.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA+wCIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T18:53:38.868Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Pandora\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Models\\Category.cs",
+              "RelativeToolTip": "Pandora\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T23:22:18.735Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pandora\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Pandora\\Views\\Products\\Create.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T18:21:46.535Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Pandora\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Pandora\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-23T18:28:46.559Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pandora\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "Pandora\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T05:26:39.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pandora\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "Pandora\\Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T04:37:27.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RequiredIfNewProductAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Models\\RequiredIfNewProductAttribute.cs",
+              "RelativeDocumentMoniker": "Pandora\\Models\\RequiredIfNewProductAttribute.cs",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Models\\RequiredIfNewProductAttribute.cs",
+              "RelativeToolTip": "Pandora\\Models\\RequiredIfNewProductAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T02:04:56.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240723181244_AddingMaterialTableAndCategoryTable.cs",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Migrations\\20240723181244_AddingMaterialTableAndCategoryTable.cs",
+              "RelativeDocumentMoniker": "Pandora\\Migrations\\20240723181244_AddingMaterialTableAndCategoryTable.cs",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Migrations\\20240723181244_AddingMaterialTableAndCategoryTable.cs",
+              "RelativeToolTip": "Pandora\\Migrations\\20240723181244_AddingMaterialTableAndCategoryTable.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAswFAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T23:44:22.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240723122442_IntialCreatingDB.cs",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Migrations\\20240723122442_IntialCreatingDB.cs",
+              "RelativeDocumentMoniker": "Pandora\\Migrations\\20240723122442_IntialCreatingDB.cs",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Migrations\\20240723122442_IntialCreatingDB.cs",
+              "RelativeToolTip": "Pandora\\Migrations\\20240723122442_IntialCreatingDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T23:44:19.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pandora\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Pandora\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T03:27:12.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\appsettings.json",
+              "RelativeDocumentMoniker": "Pandora\\appsettings.json",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\appsettings.json",
+              "RelativeToolTip": "Pandora\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-26T22:51:32.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pandora\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pandora\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T18:51:48.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Pandora\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Pandora\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAOIAAAAAAAAAAAAqwPkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T18:21:19.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Program.cs",
+              "RelativeDocumentMoniker": "Pandora\\Program.cs",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Program.cs",
+              "RelativeToolTip": "Pandora\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T22:51:37.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication1\\WebApplication1\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "..\\WebApplication1\\WebApplication1\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAACgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:11:52.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\DbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Pandora\\DbContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\DbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Pandora\\DbContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T22:51:07.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pandora\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Pandora\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T06:04:19.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pandora.csproj",
+              "DocumentMoniker": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Pandora.csproj",
+              "RelativeDocumentMoniker": "Pandora\\Pandora.csproj",
+              "ToolTip": "C:\\Users\\hsoopa\\source\\repos\\Pandora\\Pandora\\Pandora.csproj",
+              "RelativeToolTip": "Pandora\\Pandora.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-23T19:20:43.03Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
